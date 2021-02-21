@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = CRPCryptoWidget
 
-CRPCryptoWidget_FILES = CRPCryptoWidget.m
+CRPCryptoWidget_FILES = Widget/CRPCryptoWidget.m
 CRPCryptoWidget_FRAMEWORKS = UIKit
 CRPCryptoWidget_INSTALL_PATH = /Library/Multipla/Widgets
 CRPCryptoWidget_CFLAGS = -fobjc-arc
@@ -15,5 +15,5 @@ CRPCryptoWidget_CFLAGS = -fobjc-arc
 ADDITIONAL_CFLAGS += -DTHEOS_LEAN_AND_MEAN
 
 include $(THEOS_MAKE_PATH)/bundle.mk
-SUBPROJECTS += cryptowidgetprefs
+SUBPROJECTS += Prefs
 include $(THEOS_MAKE_PATH)/aggregate.mk
