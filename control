@@ -1,7 +1,7 @@
 Package: com.burritoz.cryptowidget
 Name: CryptoWidget
 Depends: mobilesubstrate, preferenceloader, xyz.burritoz.thomz.multipla (>=2.1.0~rc5)
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Crypto currency information on your dock!
 Maintainer: burrit0z
